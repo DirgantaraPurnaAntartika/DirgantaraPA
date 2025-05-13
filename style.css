@@ -504,6 +504,16 @@ a {
     pointer-events: auto;
 }
 
+/* === Fix for mobile touch support on portfolio items === */
+.portfolio-item.active .portfolio-overlay {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.portfolio-item.active img {
+    transform: scale(1.1);
+}
+
 .portfolio-item:hover img {
     transform: scale(1.1);
 }

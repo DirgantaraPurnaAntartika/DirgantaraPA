@@ -362,6 +362,20 @@
             window.addEventListener('scroll', animateOnScroll);
             animateOnScroll(); // Initial animation
 
+            // Enable overlay toggle on mobile via touch (click on card)
+            document.querySelectorAll('.portfolio-item').forEach(item => {
+                item.addEventListener('click', function () {
+                    // Toggle class active
+                    if (this.classList.contains('active')) {
+                        this.classList.remove('active');
+                    } else {
+                        // Remove active from all other items
+                        document.querySelectorAll('.portfolio-item').forEach(i => i.classList.remove('active'));
+                        this.classList.add('active');
+                    }
+                });
+            });
+
             // Toggle hamburger menu
             const hamburger = document.querySelector('.nav-hamburger');
             const navLinks = document.querySelector('.nav-links');
