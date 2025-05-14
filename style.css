@@ -865,4 +865,8 @@ a {
         width: 90%;
         max-width: 360px;
     }
+
+    .email-address {
+        font-size: 1px;
+    }
 }
