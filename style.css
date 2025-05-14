@@ -867,10 +867,6 @@ a {
         max-width: 365px;
     }
 
-    /*.info-content {*/
-    /*    text-align: center;*/
-    /*}*/
-
     .info-content p {
         word-wrap: break-word;
         overflow-wrap: break-word;
