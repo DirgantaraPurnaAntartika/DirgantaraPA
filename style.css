@@ -147,7 +147,8 @@ a {
     display: flex;
     align-items: center;
     background: linear-gradient(rgba(10, 25, 47, 0.8), rgba(10, 25, 47, 0.8)), 
-                url('images/hero-bg.jpg') no-repeat center center/cover;
+                /*url('images/hero-bg.jpg') no-repeat center center/cover;*/
+                url('Images/fotoprofil.png') no-repeat center center/cover;
 }
 
 .hero-overlay {
